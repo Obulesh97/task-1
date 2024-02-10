@@ -1,0 +1,421 @@
+body{
+    background-color: rgb(23, 1, 34);
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.container{
+    position: static;
+    background-color: rgb(27, 3, 53);
+    height: 50px;
+    width: 100%;
+}
+.container h3{
+    position: relative;
+    color: white;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+.container2 ul{
+    position: relative;
+    display: flex;
+    margin-left: 50%;
+    margin-top: -3%;
+}
+.container2 ul li{
+    list-style: none;
+}
+.container2 ul li a{
+    display: inline-block;
+    color: #fbfeff;
+    font-weight: 600;
+    margin-left: 80px;
+    text-decoration: none;
+    animation-name: hm;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes hm {
+    from {bottom: 100px; opacity: 5%;}
+    to {top: 250px; opacity: 100%;}
+  }
+.container2 ul li a:hover{
+    color:aqua;
+}
+.container3{
+    position: relative;
+    background: linear-gradient(90deg,rgb(254, 2, 233),skyblue,blue);
+    box-shadow: 20px 20px 20px 20px pink,skyblue,blue;
+    width: 20%;
+    height: 300px;
+    border-radius: 40% 10% 40% 30px;
+    margin-left:  65%;
+    margin-top: 15%;
+}
+.container4 h2{
+    position: absolute;
+    color: white;
+    top: 10%;
+    left: 20%;
+    animation-name: example;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes example {
+    from {top: 300px; opacity: 5%;}
+    to {top: 350px; opacity: 100%;}
+  }
+.container4 h1{
+    position: absolute;
+    color: rgb(5, 202, 252);
+    bottom: 18%;
+    left: 20%;
+    font-size: 50px;
+    animation-name: hmm;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes hmm {
+    from {left: 200px; opacity: 5%;}
+    to {left: 300px; opacity: 100%;}
+  }
+.container4 h3{
+    position: absolute;
+    color: rgb(247, 253, 253);
+    bottom: 13%;
+    left: 20%;
+    font-size: 30px;
+    animation-name: exampl;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes exampl {
+    from {bottom: 40px; opacity: 5%;}
+    to {bottom: 80px; opacity: 100%;}
+  }
+.container4 p{
+    position: absolute;
+    color: rgb(247, 253, 253);
+    bottom: 3%;
+    left: 20%;
+    font-size: 20px;
+    animation-name: hmm;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes hmmm {
+    from {left: 200px; opacity: 5%;}
+    to {left: 300px; opacity: 100%;}
+  }
+  .container4 i{
+    color: aqua;
+    position: absolute;
+    left: 20%;
+    bottom: -10%;
+  } 
+   .container4 j{
+    color: aqua;
+    position: absolute;
+    left: 25%;
+    bottom: -10%;
+  }
+  .container4 k{
+    color: aqua;
+    position: absolute;
+    left: 30%;
+    bottom: -10%;
+  }
+  .container4 m{
+    color: aqua;
+    position: absolute;
+    left: 35%;
+    bottom: -10%;
+  }
+  .container5 button {
+    position: absolute;
+    left: 22%;
+    top: 115%;
+    width: 15%;
+    height: 8%;
+    color: white;
+    background-color: transparent;
+    border-radius: 30px;
+    border-color: #03c0ff;
+    cursor: pointer;
+  }
+  .container6 h1{
+    color:aqua;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 55%;
+    font-size: 40px;
+  }
+  .container6 h2{
+    color:rgb(241, 246, 246);
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 55%;
+    font-size: 25px;
+  }
+  .container16{
+    position: absolute;
+    background: linear-gradient(90deg,rgb(254, 2, 233),skyblue,blue);
+    box-shadow: 20px 20px 20px 20px pink,skyblue,blue;
+    width: 20%;
+    height: 300px;
+    border-radius: 40% 10% 40% 30px;
+    margin-left:  10%;
+    margin-top: 30%;
+}
+  .container6 p{
+    color:rgb(241, 246, 246);
+    position: absolute;
+    margin-top: 31%;
+    margin-left: 55%;
+    max-width: 500px;
+    height: 100px;
+  }
+  .container6 button{
+    color:rgb(4, 249, 249);
+    position: absolute;
+    background-color: transparent;
+    margin-top: 60%;
+    margin-left: 55%;
+    width: 15%;
+    height: 8%;
+    border-radius: 30px;
+    border-color: #06befc;
+    cursor: pointer;
+  }
+  .container7 h1{
+    color:aqua;
+    position: absolute;
+    margin-top: 75%;
+    margin-left: 50%;
+    font-size: 40px;
+  }
+  .container7 i{
+    color:rgb(248, 250, 250);
+    position: absolute;
+    margin-top: 85%;
+    margin-left: -30%;
+  }
+  .container7 progress{
+    position:absolute;
+    margin-top: 89%;
+    margin-left: -30%;
+    width: 25%;
+    height: 1%;
+    color: aqua;
+  }
+  .container7 h4{
+    position: absolute;
+    margin-top: 87%;
+    margin-left: 43%;
+    color: rgb(6, 249, 249);
+  }
+  .container8 i{
+    color:rgb(248, 250, 250);
+    position: absolute;
+    margin-top: 90%;
+    margin-left: -30%;
+  }
+  .container8 progress{
+    position:absolute;
+    margin-top: 95%;
+    margin-left: -30%;
+    width: 25%;
+    height: 1%;
+    color: aqua;
+  }
+  .container8 h4{
+    position: absolute;
+    margin-top: 93%;
+    margin-left: 43%;
+    color: rgb(6, 249, 249);
+  }
+  .container9 i{
+    color:rgb(248, 250, 250);
+    position: absolute;
+    margin-top: 96%;
+    margin-left: -30%;
+  }
+  .container9 progress{
+    position:absolute;
+    margin-top: 100%;
+    margin-left: -30%;
+    width: 25%;
+    height: 1%;
+    color: aqua;
+  }
+  .container9 h4{
+    position: absolute;
+    margin-top: 98%;
+    margin-left: 43%;
+    color: rgb(6, 249, 249);
+  }
+  .container10 i{
+    color:rgb(248, 250, 250);
+    position: absolute;
+    margin-top: 101%;
+    margin-left: -30%;
+  }
+  .container10 progress{
+    position:absolute;
+    margin-top: 105%;
+    margin-left: -30%;
+    width: 25%;
+    height: 1%;
+    color: aqua;
+  }
+  .container10 h4{
+    position: absolute;
+    margin-top: 103%;
+    margin-left: 43%;
+    color: rgb(6, 249, 249);
+  }
+  .container11 i{
+    color:rgb(248, 250, 250);
+    position: absolute;
+    margin-top: 106%;
+    margin-left: -30%;
+    border-radius: 50%;
+  }
+  .container11 progress{
+    position:absolute;
+    margin-top: 110%;
+    margin-left: -30%;
+    width: 25%;
+    height: 1%;
+    color: aqua;
+  }
+  .container11 h4{
+    position: absolute;
+    margin-top: 108%;
+    margin-left: 43%;
+    color: rgb(6, 249, 249);
+  }
+  .container12 h3{
+    position: absolute;
+    color:aqua;
+    top: 400%;
+    left: 25%;
+  }
+  .container12 h4{
+    position: absolute;
+    color:rgb(246, 248, 248);
+    top: 410%;
+    left: 10%;
+  }
+  .container12 p{
+    position: absolute;
+    top: 420%;
+    left: 10%;
+    max-width: 500px;
+    color:rgb(112, 114, 114);
+    height: 100px;
+  }
+  .container12 i{
+    color: aqua;
+    position: absolute;
+    left: 10%;
+    top: 450%;
+    max-block-size: 3%;
+  } 
+   .container12 j{
+    color: aqua;
+    position: absolute;
+    left: 10%;
+    top: 440%;
+    font-size: 5px;
+  }
+  .container12 h4{
+    color: aqua;
+    position: absolute;
+    left: 12%;
+    top: 447%;
+  }
+  .container13 input{
+    position: absolute;
+    top:  410%;
+    left: 60%;
+    width: 30%;
+    height: 8%;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    border-color: aqua;
+  }
+  .container14 input{
+    position: absolute;
+    top:  425%;
+    left: 60%;
+    width: 30%;
+    height: 8%;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    border-color: aqua;
+  }
+  .container15 input{
+    position: absolute;
+    top:  440%;
+    left: 60%;
+    width: 30%;
+    height: 14%;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    border-color: aqua;
+  }
+  .container15 button{
+    position: absolute;
+    top:460%;
+    width: 30%;
+    height: 8%;
+    border-color: aqua;
+    background-color: transparent;
+    color:rgb(243, 243, 247);
+    border-radius: 30px;
+    left: 60%;
+  }
+  .container15 button:hover{
+    background-color: red;
+  }
+  .container3 img{
+    position: absolute;
+    size-adjust: 30%;
+    width: 100%;
+    height: 140%;
+    bottom: 0%;
+    border-radius: 40% 10% 40% 30px;
+    animation-name: examp;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes examp {
+    from {bottom: 40px; opacity: 5%;}
+    to {bottom: 0px; opacity: 100%;}
+  }
+  .container16 img{
+      position: absolute;
+      size-adjust: 30%;
+      width: 100%;
+      height: 140%;
+      bottom: 0%;
+      border-radius: 40% 10% 40% 30px;
+      animation-name: examp;
+      animation-duration: 2s;  
+      animation-fill-mode: forwards;
+    }
+    
+    @keyframes examp {
+      from {bottom: 40px; opacity: 5%;}
+      to {bottom: 0px; opacity: 100%;}
+    }
